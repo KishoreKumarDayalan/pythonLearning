@@ -62,6 +62,5 @@ for root,dirs,files in os.walk(dir, topdown=False):
             log.close()     
             print('file successfully processed, please check output')
             print(count)
-            time.sleep(2)
             
         
